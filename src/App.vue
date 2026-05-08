@@ -69,31 +69,3 @@ const valorTotalInventario = computed(() =>
     <ProductList :productos="productosFiltrados" @eliminar-producto="eliminarProducto" />
   </main>
 </template>
-
-<style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-}
-
-input,
-select,
-button {
-  margin: 5px;
-}
-
-.error {
-  color: red;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th,
-td {
-  border: 1px solid #ccc;
-  padding: 8px;
-}
-</style>
